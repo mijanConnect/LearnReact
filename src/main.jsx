@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import PropsPassingFunction from './pages/PropsPassingFunction'
+import FormSubmit from './pages/FormSubmit'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PropsPassingFunction/>
+    <FormSubmit/>
   </StrictMode>,
 )
