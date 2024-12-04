@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import FormSubmit from './pages/FormSubmit'
+import HookUseRefInnerHTMLcng from './pages/HookUseRefInnerHTMLcng'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FormSubmit/>
+    <HookUseRefInnerHTMLcng/>
   </StrictMode>,
-)
+) 
