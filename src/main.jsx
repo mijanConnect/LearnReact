@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import HookUseRefInnerHTMLcng from './pages/HookUseRefInnerHTMLcng'
+import HookUseRefInputElement from './pages/HookUseRefInputElement'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HookUseRefInnerHTMLcng/>
+    <HookUseRefInputElement/>
   </StrictMode>,
 ) 
