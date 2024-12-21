@@ -27,8 +27,7 @@ const HookUseStateObject = () => {
             })
         )
     }
-
-
+    
     return (
         <div>
             <h1>{myObject.key1}</h1>
