@@ -1,9 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import PropsPassingData from './pages/PropsPassingData'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import HookUseStateToDoList from './pages/HookUseStateToDoList';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PropsPassingData/>
+    <HookUseStateToDoList/>
   </StrictMode>,
 )
