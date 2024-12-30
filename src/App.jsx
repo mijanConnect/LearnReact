@@ -1,15 +1,19 @@
-import ContactForm from "./component/ContactForm";
-import Footer from './component/Footer';
-import Hero from "./component/Hero";
-import Header from "./component/Header";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import PageOne from './pageRoute/PageOne';
+import PageTwo from './pageRoute/PageTwo';
+import PageNotFoumd from './pageRoute/PageNotFoumd';
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <ContactForm/>
-      <Footer/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<PageOne/>}/>
+        <Route path='/two' element={<PageTwo/>}/>
+        <Route path='/*' element={<PageNotFoumd/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 };
