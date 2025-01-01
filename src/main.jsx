@@ -4,6 +4,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'milligram/dist/milligram.css'
 import App from './App';
+import "./assets/css/style.css"
 
 createRoot(document.getElementById('root')).render(
 
