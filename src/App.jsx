@@ -10,7 +10,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<PageOne/>}/>
-        <Route path='/two' element={<PageTwo/>}/>
+        <Route path='/two/:id/:name' element={<PageTwo/>}/>
         <Route path='/*' element={<PageNotFoumd/>}/>
       </Routes>
       </BrowserRouter>

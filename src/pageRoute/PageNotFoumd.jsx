@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from '../component/Menu';
+import { useParams } from 'react-router-dom';
 
 const PageNotFoumd = () => {
     return (
